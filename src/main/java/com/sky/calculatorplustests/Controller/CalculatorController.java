@@ -35,7 +35,7 @@ public class CalculatorController {
         return num1 + " + " + num2 + " = " + result;
     }
 
-    @GetMapping("plus")
+    @GetMapping("minus")
     public String minus(@RequestParam(required = false) Integer num1, @RequestParam(required = false) Integer num2){
 
         if(num1 == null || num2 == null){
@@ -46,7 +46,7 @@ public class CalculatorController {
         return num1 + " - " + num2 + " = " + result;
     }
 
-    @GetMapping("plus")
+    @GetMapping("multiply")
     public String multiply(@RequestParam(required = false) Integer num1, @RequestParam(required = false) Integer num2){
 
         if(num1 == null || num2 == null){
@@ -57,7 +57,7 @@ public class CalculatorController {
         return num1 + " * " + num2 + " = " + result;
     }
 
-    @GetMapping("plus")
+    @GetMapping("divide")
     public String divide(@RequestParam(required = false) Integer num1, @RequestParam(required = false) Integer num2){
 
         if(num1 == null || num2 == null){
