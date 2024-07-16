@@ -1,5 +1,6 @@
 package com.sky.calculatorplustests.Interface;
 
+
 public interface CalculatorService {
 
     Integer plus (Integer num1, Integer num2);

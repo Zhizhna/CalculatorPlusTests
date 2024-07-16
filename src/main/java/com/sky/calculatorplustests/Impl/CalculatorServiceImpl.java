@@ -2,7 +2,9 @@ package com.sky.calculatorplustests.Impl;
 
 import com.sky.calculatorplustests.Interface.CalculatorService;
 import com.sky.calculatorplustests.exeptions.DivideByZeroException;
+import org.springframework.stereotype.Service;
 
+@Service
 public class CalculatorServiceImpl implements CalculatorService {
 
     @Override
